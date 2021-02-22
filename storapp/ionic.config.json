@@ -1,0 +1,7 @@
+{
+  "name": "storapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

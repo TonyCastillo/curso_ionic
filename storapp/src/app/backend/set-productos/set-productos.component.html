@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Crear producto </ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="openMenu()">
+        <ion-icon color="primary" slot="icon-only" name="menu-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <h4 class="m-0 py-3 text-center bg bg-secondary">Ingrese datos del producto</h4>
+  <ion-item>
+    <ion-label position="floating">
+      Nombre:
+    </ion-label>
+    <ion-input type= "text" inputmode="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      Precio:
+    </ion-label>
+    <ion-input type= "number" inputmode="numeric"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      Precio reducido:
+    </ion-label>
+    <ion-input type= "number" inputmode="numeric"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      Foto:
+    </ion-label>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="image"></ion-icon>
+
+      </ion-button>
+    </ion-buttons>
+  </ion-item>
+
+  <ion-button class="mt-4" expand="block" fill="outline">Outline + Block</ion-button>
+
+</ion-content>
